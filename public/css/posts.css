@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:calc(100vh - 70px);
+    padding: 20px;
+    row-gap: 30px;
+    
+}
+.title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.post_form{
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.post_form button{
+    border: none;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: #299421;
+    color:white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.post_form textarea{
+    outline: none;
+    border: 0.5px solid #299421;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    text-indent: 0;
+    resize: none;
+    font-size: 17px;
+}
+
+.error{
+    color:rgb(197, 24, 24);
+    font-size: 17px;
+    font-weight: 500;
+ }
+ .input-error{
+     border: 0.5px solid rgb(197, 24, 24);
+ }
+
+ .posts_container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+ }
+ .post_container{
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 20px;
+    width: 500px;
+    min-height:100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+ }
+ .post_container .post_head{
+    display: flex;
+    justify-content: space-between;
+ }
+ .post_container  .user{
+    display: flex;
+    column-gap: 10px;
+ }
+ .post_container  .avatar{
+    border-radius: 50%;
+    background-color: #299421;
+    color:#fefefe;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .post_container .post_head .username{
+   font-size: 17px;
+   font-weight: 700;
+ }
+ .post_container .post_head .date{
+    font-size: 16px;
+    font-weight: 500;
+    color: #949090;
+  }
+  .like-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 17px;
+    color:#299421;
+    cursor: pointer;
+  }
+  .post_container .post_action_buttons{
+    display: flex;
+    column-gap: 20px;
+  }
+  .post_container .post_action_buttons button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 17px;
+    color:#299421;
+    cursor: pointer;
+  }
+  .post_container .post_action_buttons .delete-btn{
+   color:rgb(197, 24, 24);
+  }

@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_PASSWORD: '123456'
+      MYSQL_ROOT_PASSWORD: '123456'
+      MYSQL_DATABASE: mini_blog
+    ports:
+      - '9001:3306'
+
+    expose:
+      - '3306'
+    volumes:
+      - ./mysql:/var/lib/mysql
+volumes:
+  my-db:

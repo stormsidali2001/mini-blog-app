@@ -1,0 +1,35 @@
+nav{
+    height:60px;
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.left,.right{
+    display: flex;
+    column-gap: 17px;
+    align-items: center;
+}
+nav .item{
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+nav .button{
+    border: none;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: #299421;
+    color:white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.right form{
+    height: fit-content;
+}
